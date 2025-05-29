@@ -16,7 +16,7 @@
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --write src/**/*.ts",
     "format:check": "prettier --check src/**/*.ts",
-    "type-check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "prepare": "husky",
     "test": "is-ci-cli \"test:coverage\" \"test:watch\"",
     "test:watch": "jest --watch",
